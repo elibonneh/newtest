@@ -26,9 +26,10 @@ driver.find_element_by_class_name("ui-btn").click()
 # Choose business screen:
 import time
 time.sleep(5)
-driver.find_elements_by_class_name("card-item")[2].click()
-driver.find_element_by_id('ember1199').send_keys("500")
-driver.find_element_by_xpath("//div/button").click()
+driver.find_elements_by_class_name("card-item")[3].click()
+driver.find_element_by_xpath("//div/div[2]/span").click()
+driver.find_element_by_id('ember1669').send_keys("500")
+driver.find_element_by_xpath("//form/div[2]/div/button").click()
 
 # Sender & Receiver information screen:
 driver.find_element_by_id('ember1303').send_keys("Dana")
